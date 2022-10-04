@@ -6,6 +6,8 @@ Text-to-speech data collection with Kafka, Airflow, Spark and S3 bucket.
 * [Data](#data)
 * [Installation Guide](#installation-guide)
 * [LICENCE](#licence)
+* [Contributers](#contributors)
+
 
 ## Project overview
 
@@ -22,3 +24,12 @@ Alternative data Ready-made Amharic data collected from different sources  [here
 ## Installation Guide
 
 ## LICENCE
+
+##Contributors
+* [Yohans Samuel](https://github.com/YohansSamuel)
+* [Degaga Wolde](https://github.com/degagawolde)
+* [Margaret Chepkirui](https://github.com/MegCheppy) 
+* [Yohanes Gutema](https://github.com/Yohanes-GR)
+* [Tibarek Mesfin](https://github.com/tibarekb)
+* [Andenet Alexander](https://github.com/andyalex234)
+
