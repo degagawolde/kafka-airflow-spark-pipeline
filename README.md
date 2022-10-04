@@ -9,6 +9,6 @@ In this project design and build a robust, large scale, fault tolerant, highly a
 
 There are a number of large text corpora we will use, but for the purpose of testing the backend development, you can use the recently released Amharic news text classification dataset with baseline performance dataset:   
 
-[IsraelAbebe/An-Amharic-News-Text-classification-Dataset: An Amharic News Text classification Dataset (github.com)]([url](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset))
+[IsraelAbebe/An-Amharic-News-Text-classification-Dataset: An Amharic News Text classification Dataset (github.com)](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset)
 
-Alternative data Ready-made Amharic data collected from different sources  [here](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset)
+Alternative data Ready-made Amharic data collected from different sources  [here](https://drive.google.com/file/d/1_YLX27TdACjIF1iu8e3t-kkTb1qBlLkO/view)
