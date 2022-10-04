@@ -3,6 +3,7 @@ Text-to-speech data collection with Kafka, Airflow, Spark and S3 bucket.
 
 **Table of Content**
 * [Project Overview](#project-overview)
+* [Data](#data)
 * [Installation Guide](#installation-guide)
 * [LICENCE](#licence)
 
