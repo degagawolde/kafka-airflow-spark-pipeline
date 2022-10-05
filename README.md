@@ -13,6 +13,8 @@ Text-to-speech data collection with Kafka, Airflow, Spark and S3 bucket.
 
 In this project design and build a robust, large scale, fault tolerant, highly available Kafka cluster that can be used to post a sentence and receive an audio file and produce a tool that can be deployed to process posting and receiving text and audio files from and into a data lake, apply transformation in a distributed manner, and load it into a warehouse in a suitable format to train a speech-t0-text model.  
 
+![workflow](https://github.com/degagawolde/kafka-airflow-spark-pipeline/blob/main/screenshots/ETL%20Pipeline%20with%20Apache%20Kafka%2C%20Spark%20and%20Airflow.png) 
+
 ## Data 
 
 There are a number of large text corpora we will use, but for the purpose of testing the backend development, you can use the recently released Amharic news text classification dataset with baseline performance dataset:   
