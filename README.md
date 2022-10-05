@@ -24,7 +24,7 @@ Alternative data Ready-made Amharic data collected from different sources  [here
 ## Installation Guide
 
 ## LICENCE
-
+ MIT
 ## Contributors
 * [Yohans Samuel](https://github.com/YohansSamuel)
 * [Degaga Wolde](https://github.com/degagawolde)
