@@ -21,11 +21,11 @@ There are a number of large text corpora we will use, but for the purpose of tes
 
 Alternative data Ready-made Amharic data collected from different sources  [here](https://drive.google.com/file/d/1_YLX27TdACjIF1iu8e3t-kkTb1qBlLkO/view)
 
-## Installation Guide
+### Installation Guide
 
-## LICENCE
+### LICENCE
  MIT
-## Contributors
+#### Contributors
 * [Yohans Samuel](https://github.com/YohansSamuel)
 * [Degaga Wolde](https://github.com/degagawolde)
 * [Margaret Chepkirui](https://github.com/MegCheppy) 
