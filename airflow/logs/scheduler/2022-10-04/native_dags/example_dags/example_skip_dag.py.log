@@ -1,0 +1,77 @@
+[2022-10-04T23:34:05.399+0000] {processor.py:156} INFO - Started process (PID=83) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:34:05.400+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:34:05.401+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:34:05.400+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:34:05.422+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:34:05.504+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:34:05.504+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:34:05.538+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:34:05.538+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:34:05.538033+00:00, run_after=2022-10-04T23:34:05.538033+00:00
+[2022-10-04T23:34:05.700+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.306 seconds
+[2022-10-04T23:36:31.489+0000] {processor.py:156} INFO - Started process (PID=94) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:36:31.496+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:36:31.502+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:36:31.502+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:36:31.826+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:36:34.186+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:36:34.186+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:36:34.419+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:36:34.419+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:36:34.416665+00:00, run_after=2022-10-04T23:36:34.416665+00:00
+[2022-10-04T23:36:48.749+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 17.280 seconds
+[2022-10-04T23:42:57.620+0000] {processor.py:156} INFO - Started process (PID=102) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:42:57.622+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:42:57.623+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:42:57.623+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:42:57.650+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:42:57.872+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:42:57.872+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:42:57.905+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:42:57.905+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:42:57.904849+00:00, run_after=2022-10-04T23:42:57.904849+00:00
+[2022-10-04T23:42:57.979+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.363 seconds
+[2022-10-04T23:44:54.787+0000] {processor.py:156} INFO - Started process (PID=84) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:44:54.789+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:44:54.790+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:44:54.790+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:44:54.824+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:44:55.215+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:44:55.215+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:44:55.250+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:44:55.250+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:44:55.249710+00:00, run_after=2022-10-04T23:44:55.249710+00:00
+[2022-10-04T23:44:55.407+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.633 seconds
+[2022-10-04T23:46:51.863+0000] {processor.py:156} INFO - Started process (PID=82) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:46:51.873+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:46:51.875+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:46:51.875+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:46:51.939+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:46:52.619+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:46:52.619+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:46:52.782+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:46:52.782+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:46:52.781916+00:00, run_after=2022-10-04T23:46:52.781916+00:00
+[2022-10-04T23:46:52.970+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 1.112 seconds
+[2022-10-04T23:49:07.230+0000] {processor.py:156} INFO - Started process (PID=91) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:49:07.237+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:49:07.238+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:49:07.238+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:49:07.281+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:49:07.617+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:49:07.617+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:49:07.656+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:49:07.656+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:49:07.656118+00:00, run_after=2022-10-04T23:49:07.656118+00:00
+[2022-10-04T23:49:07.703+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.488 seconds
+[2022-10-04T23:51:01.160+0000] {processor.py:156} INFO - Started process (PID=81) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:51:01.162+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:51:01.165+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:51:01.165+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:51:01.240+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:51:01.586+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:51:01.585+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:51:01.666+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:51:01.666+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:51:01.666368+00:00, run_after=2022-10-04T23:51:01.666368+00:00
+[2022-10-04T23:51:01.885+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.755 seconds
+[2022-10-04T23:53:01.263+0000] {processor.py:156} INFO - Started process (PID=84) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:53:01.264+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:53:01.265+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:53:01.265+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:53:01.330+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:53:02.071+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:53:02.071+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:53:02.176+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:53:02.175+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:53:02.175523+00:00, run_after=2022-10-04T23:53:02.175523+00:00
+[2022-10-04T23:53:02.326+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 1.080 seconds
+[2022-10-04T23:55:07.236+0000] {processor.py:156} INFO - Started process (PID=82) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:55:07.243+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:55:07.247+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:55:07.247+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:55:07.334+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:55:08.386+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:55:08.386+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:55:08.548+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:55:08.548+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:55:08.547927+00:00, run_after=2022-10-04T23:55:08.547927+00:00
+[2022-10-04T23:55:09.838+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 2.628 seconds
+[2022-10-04T23:57:14.724+0000] {processor.py:156} INFO - Started process (PID=94) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:57:14.732+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:57:14.741+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:57:14.741+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:57:14.874+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:57:16.859+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:57:16.859+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:57:17.200+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:57:17.200+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:57:17.199725+00:00, run_after=2022-10-04T23:57:17.199725+00:00
+[2022-10-04T23:57:17.601+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 2.925 seconds
+[2022-10-04T23:59:16.160+0000] {processor.py:156} INFO - Started process (PID=93) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:59:16.175+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-04T23:59:16.180+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:59:16.180+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:59:16.516+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-04T23:59:17.958+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:59:17.958+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-04T23:59:18.157+0000] {logging_mixin.py:117} INFO - [2022-10-04T23:59:18.156+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2022-10-03T23:59:18.156680+00:00, run_after=2022-10-04T23:59:18.156680+00:00
+[2022-10-04T23:59:21.780+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 5.649 seconds
