@@ -1,12 +1,8 @@
 name: GitHub Actions Test
 on:
-  push:
+  pull_request:
     branches:
-      # - "main"
-      - "cicd"
-  # pull_request:
-  #   branches:
-  #     - "main"
+      - "main"
 
 jobs:
   test:
