@@ -10,7 +10,7 @@ class TestDataExtraction(unittest.TestCase):
     
     def setUp(self) -> None:
         self.dataext = DataExtractor()
-        self.csv_file = './data/original_test_dagta.csv'
+        self.csv_file = './data/original_test_data.csv'
         self.csv_save = './data/saved_test_data.csv'
         self.df = pd.DataFrame({'a':[1,2,3],'b':['a','b','c']})
    
