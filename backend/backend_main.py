@@ -8,7 +8,7 @@ from json import loads, dumps
 from kafka import KafkaProducer, KafkaConsumer
 from kafka.errors import NoBrokersAvailable
 
-TEXT_TOPIC = "text"
+TEXT_TOPIC = "g5-untranscribed-text"
 TEXT_AUDIO_PAIR_TOPIC = "text.audio.pair"
 BROKER_ADDRESS = 'localhost:39092'
 
@@ -27,6 +27,10 @@ def init_routes(app):
     except NoBrokersAvailable:
         print("NoBrokersAvailable")
 
+    @app.route("/")
+    def hello_world():
+        return "<p>Hello, World!</p>"
+    
     @app.route("/test")
     def test():
         return "Hello, world"
@@ -45,7 +49,12 @@ def init_routes(app):
         except NameError:
             print("Consumer not init")
             return 404
-
+        
+    @app.route('/getit',methods=['GET'])
+    def getit():
+        sentence = "አገራችን ከአፍሪካም ሆነ ከሌሎች የአለም አገራት ጋር ያላትን አለም አቀፋዊ ግንኙነት ወደ ላቀ ደረጃ ያሸጋገረ ሆኗል በአገር ውስጥ አራት አለም"
+        return sentence
+    
     @app.route('/submit', methods=["POST"])
     def publish_text_audio_pair():
         audio = request.files['audio']
