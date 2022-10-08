@@ -8,9 +8,9 @@ from json import loads, dumps
 from kafka import KafkaProducer, KafkaConsumer
 from kafka.errors import NoBrokersAvailable
 
-TEXT_TOPIC = "text"
-TEXT_AUDIO_PAIR_TOPIC = "text.audio.pair"
-BROKER_ADDRESS = 'localhost:39092'
+TEXT_TOPIC = "g5-untranscribed-text"
+TEXT_AUDIO_PAIR_TOPIC = "g5-text-audio-pair"
+BROKER_ADDRESS = 'b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092'
 
 def init_routes(app):
     """A factory function that takes in the server 
@@ -37,15 +37,12 @@ def init_routes(app):
         try:
             for s in consumer:
                 print(s.value)
-            # sentence = next(consumer)
-            # print(sentence)
                 sentence = s.value
-            # sentence = "አገራችን ከአፍሪካም ሆነ ከሌሎች የአለም አገራት ጋር ያላትን አለም አቀፋዊ ግንኙነት ወደ ላቀ ደረጃ ያሸጋገረ ሆኗል በአገር ውስጥ አራት አለም"
                 return jsonify(text=sentence)
         except NameError:
             print("Consumer not init")
             return 404
-
+    
     @app.route('/submit', methods=["POST"])
     def publish_text_audio_pair():
         audio = request.files['audio']
@@ -64,9 +61,7 @@ def init_routes(app):
             print(res)
         except NameError:
             print("Producer not created")
-
         # pprint(data)
-
         return "200"
 
     return app
