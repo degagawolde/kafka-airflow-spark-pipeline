@@ -6,7 +6,7 @@ import pandas as pd
 
 from kafka import KafkaProducer
 
-def s3Bucket():
+def sentence_publisher():
     df = pd.read_csv("/mnt/10ac-batch-6/notebooks/degaga_wolde/amharic_news_dataset.csv")
     producer = KafkaProducer(bootstrap_servers='b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092',
                             value_serializer=lambda x: dumps(x).encode('utf-8'))
@@ -14,8 +14,9 @@ def s3Bucket():
         producer.send("g5-untranscribed-text", value=row.article)
         print(type(row.article))
         print(row.article)
+
   
-with DAG(
+with DAG( 
     dag_id="dag",
     schedule_interval="@daily",
     default_args={
@@ -28,10 +29,10 @@ with DAG(
     catchup=False,
 ) as dags:
 
-     s3Bucket = PythonOperator(
-        task_id="update_s3",
-        python_callable=s3Bucket,
+     text_publisher = PythonOperator(
+        task_id="publish-sentence-to-kafka-topic",
+        python_callable=sentence_publisher,
         provide_context=True,
      )
 
-s3Bucket
+text_publisher
