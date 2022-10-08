@@ -22,6 +22,10 @@ There are a number of large text corpora we will use, but for the purpose of tes
 
 Alternative data Ready-made Amharic data collected from different sources  [here](https://drive.google.com/file/d/1_YLX27TdACjIF1iu8e3t-kkTb1qBlLkO/view)
 
+## Frontend
+![image](https://user-images.githubusercontent.com/59474650/194722808-4e55ce24-7078-41b0-aa7a-2fc70d4441ab.png)
+
+
 ### Installation Guide
 
 ### LICENCE
