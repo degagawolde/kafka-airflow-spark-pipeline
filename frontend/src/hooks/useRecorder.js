@@ -76,6 +76,7 @@ const initialState = {
             if (prevState.mediaRecorder)
               return {
                 ...initialState,
+                blob: blob,
                 audio: window.URL.createObjectURL(blob),
               };
             else return initialState;

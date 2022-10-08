@@ -27,7 +27,7 @@ export default function RecorderControls({ recorderState, handlers }) {
       <div className="start-button-container">
         {initRecording ? (
           <button
-            className="start-button"
+            className="start-button hover:bg-gradient-to-l hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
             title="Save recording"
             disabled={recordingSeconds === 0}
             onClick={saveRecording}
@@ -35,7 +35,7 @@ export default function RecorderControls({ recorderState, handlers }) {
             <FontAwesomeIcon icon={faSave} size="2x" />
           </button>
         ) : (
-          <button className="start-button" title="Start recording" onClick={startRecording}>
+          <button className="start-button hover:bg-gradient-to-l hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500" title="Start recording" onClick={startRecording}>
             <FontAwesomeIcon icon={faMicrophone} size="2x" />
           </button>
         )}

@@ -13,7 +13,7 @@
     display: grid;
     place-content: center;
     place-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
   
@@ -40,6 +40,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 0.5rem;
+    align-items: center;
   }
   
   .record audio {

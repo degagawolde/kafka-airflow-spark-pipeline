@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrashAlt, faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
+import { faTrashAlt, faExclamationCircle, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import useRecordingsList from "../../hooks/useRecordingsList";
 import './styles.css';
 
-export default function RecordingsList({ audio }) {
-    const { recordings, deleteAudio } = useRecordingsList(audio);
+export default function RecordingsList({ audio, blob }) {
+    const { recordings, deleteAudio, sendAudio } = useRecordingsList(audio, blob);
   
     return (
       <div className="recordings-container">
@@ -24,13 +24,21 @@ export default function RecordingsList({ audio }) {
                       <FontAwesomeIcon icon={faTrashAlt} />
                     </button>
                   </div>
+                  <div className="justify-center text-justify align-baseline">
+                    <button
+                     onClick={() => sendAudio(record.key)}
+                     className="w-20 rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:bg-gradient-to-l hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">
+                      <span className="p-2">Send</span>
+                      <FontAwesomeIcon icon={faPaperPlane} />
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>
           </>
         ) : (
           <div className="no-records">
-            <FontAwesomeIcon icon={faExclamationCircle} size="2x" color="#f2ea02" />
+            <FontAwesomeIcon className="" icon={faExclamationCircle} size="2x" color="#f2ea02" />
             <span>You don't have records</span>
           </div>
         )}
