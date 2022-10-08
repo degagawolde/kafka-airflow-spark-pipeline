@@ -8,4 +8,3 @@ print(consumer)
 for msg in consumer:
     print(msg)
     print(msg.value)
-    # break
